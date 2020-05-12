@@ -32,7 +32,7 @@ class Area
         foreach ($this->map  as $i => $value) {
             $str .= "\t<tr>\n";
             foreach ($value  as $j => $cell) {
-                $mark = "<a href='?action=shot&i=$i&j=$j'>Выбор</a>";
+                $mark = "<a href='?action=shot&i=$i&j=$j'></a>";
                 if ($cell === 1) {
                     $mark = "<img src='cross.png'>";
                 } else if ($cell === 0) {
