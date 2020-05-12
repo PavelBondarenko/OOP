@@ -5,17 +5,17 @@
  */
 class Ai extends Tictac
 {
-    private $moves = [];
     private function putRand(string $method)
     {
         if ($this->checWin() === null) {
 
-            $this->searchEmptyCells();
+            $moves = $this->searchEmptyCells();
 
-            if (count($this->moves) > 1) {
-                $move = $this->moves[random_int(0, count($this->moves) - 1)];
+
+            if (count($moves) > 1) {
+                $move = $moves[random_int(0, count($moves) - 1)];
             } else {
-                $move = $this->moves[0];
+                $move = $moves[0];
             }
 
             if (!empty($move)) {
@@ -25,6 +25,21 @@ class Ai extends Tictac
         return $this;
     }
 
+    public function saveMap()
+    {
+        if (!empty($this->getMap())) {
+            $_SESSION['map'] = $this->getMap();
+        }
+        return $this;
+    }
+
+    public function loadMap()
+    {
+        if (!empty($_SESSION['map'])) {
+            $this->setMap($_SESSION['map']);
+        }
+        return $this;
+    }
     /**
      * Случайный ход крестиком
      */
@@ -43,14 +58,15 @@ class Ai extends Tictac
 
     public function searchEmptyCells()
     {
-        $this->moves = [];
+        $moves = [];
         foreach ($this->map as $i => $row) {
             foreach ($row as $j => $cell) {
                 if ($cell === null) {
-                    $this->moves[] = ["i" => $i, "j" => $j];
+                    $moves[] = ["i" => $i, "j" => $j];
                 }
             }
         }
+        return $moves;
     }
 
     /**
