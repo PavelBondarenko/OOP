@@ -5,6 +5,14 @@
  */
 class Ai extends Tictac
 {
+    private $saver;
+
+    public function setSaver(FileInterface $saver)
+    {
+        $this->saver = $saver;
+        return $this;
+    }
+
     private function putRand(string $method)
     {
         if ($this->checWin() === null) {
@@ -28,15 +36,18 @@ class Ai extends Tictac
     public function saveMap()
     {
         if (!empty($this->getMap())) {
-            $_SESSION['map'] = $this->getMap();
+            $this->saver->save($this->getMap());
+            // $_SESSION['map'] = $this->getMap();
         }
         return $this;
     }
 
     public function loadMap()
     {
-        if (!empty($_SESSION['map'])) {
-            $this->setMap($_SESSION['map']);
+        $data = $this->saver->load();
+        if (!empty($data)) {
+            $this->setMap($data);
+            // $this->setMap($_SESSION['map']);
         }
         return $this;
     }

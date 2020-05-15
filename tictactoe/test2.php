@@ -27,7 +27,7 @@ session_start();
     include 'autoload.php';
 
     $ai = new Ai(3);
-
+    $ai->setSaver(new SessionSaver('map'));
     $ai->loadMap();
 
     switch ($_GET['action']) {
