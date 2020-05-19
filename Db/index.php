@@ -18,4 +18,4 @@ $table = new DbTable(
 
 // echo $table->add(["text" => "Привет", "name" => "Вася"]);
 // echo $table->add(["text" => "HELLO", "name" => "Petya"]);
-$table->edit(5, ["text" => "Hi", "name" => "Антоша"]);
+$table->add(["text" => "Работает", "name" => "Петя"]);

@@ -54,4 +54,11 @@ class DbTable implements CRUDInterface
         return $this;
         //UPDATE table124 SET `name`= 'Василий', `text`= 'Просто здарвствуй' WHERE id = 4;
     }
+
+    public function delete(int $id)
+    {
+        $sql = "DELETE FROM `$this->tableName` WHERE id=$id;";
+        $this->mysqli->query($sql);
+        return $this;
+    }
 }
