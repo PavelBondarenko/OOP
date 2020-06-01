@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d995ab2f-7941-44d1-82e9-d394beb03807" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Calcul/Set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator3/src/Calcul/CalculatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator3/src/Calcul/CalculatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guest_book/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../guest_book/public/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cQz8ens5F3wJziJmVKA5XbiPAS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../guests-book" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d995ab2f-7941-44d1-82e9-d394beb03807" name="Default Changelist" comment="" />
+      <created>1590475446880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590475446880</updated>
+      <workItem from="1590475449771" duration="748000" />
+      <workItem from="1590476200192" duration="21000" />
+      <workItem from="1590476222022" duration="1847000" />
+      <workItem from="1590492224357" duration="632000" />
+      <workItem from="1590507072413" duration="729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590476603246">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1590476603246" />
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1590476599717">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="0" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1590476599717" />
+    <state x="476" y="330" key="FileChooserDialogImpl" timestamp="1590507824646">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="330" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1590507824646" />
+    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1590476474483">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="634" y="353" key="NewPhpFileDialog/-1920.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1590476474483" />
+  </component>
+</project>

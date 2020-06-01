@@ -5,9 +5,9 @@ namespace Model;
 interface CRUDInterface
 {
     /**
-     * read 
+     * read
      */
-    public function get(): array;
+    public function get(int $id = null): array;
 
     /**
      * create
